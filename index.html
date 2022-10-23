@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/pure/0.6.0/pure-min.css">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/LandingPage.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/error.css">
+    <script src="js/html5shiv.js">
+    </script>
+    <meta content="2 days" name="revisit-after">
+    <meta content="index,follow" name="robots">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="en" http-equiv="content-language">
+    <title>Lost & Found Logs | Butler Community College</title>
+</head>
+<body class="oneCol">
+
+
+<div class="wrapper top-nav" id="top">
+            <div class="container">
+                <div class="column span-12">
+                    <div class="logo animate__opacity"><a href="http://butlercc.edu/">Butler CMS 1.12</a></div>
+                </div> <!--column -->
+            </div> <!-- container-->
+        </div> <!-- top-nav -->
+
+<!-- googleon: index -->
+
+<div class="wrapper bkg" style="min-height: 600px;">
+	<div class="container">
+	<h1>Lost & Found Log</h1>
+  		<form>
+			<label for="search">Search: </label>
+    		<input type="text" id="search" name="search">
+		</form>
+		<br />
+		<table class="pure-table pure-table-bordered sortable">
+			<thead>
+				<tr>
+					<th><a href="#">Item Description</a></th>
+					<th><a href="#">Case Number</a></th>
+					<th><a href="#">Date Reported</a></th>
+					<th><a href="#">Location Found</a></th>
+				</tr>
+			</thead>
+			<tbody>
+				 
+
+
+            <tr class='accordion'>
+            <td>Butler Lanyard w/ Single Key</td>
+            <td>20-043</td>
+            <td>06/21/2021</td>
+            <td>Outdoor Basketball Court</td>
+            </tr>
+        
+            <tr class='accordion'>
+            <td>Arvest Bank Debit Card</td>
+            <td>20-041</td>
+            <td>08/18/2020</td>
+            <td>BOE Library</td>
+            </tr>
+        
+            <tr class='accordion'>
+            <td>Ear Buds and Case</td>
+            <td>20-039</td>
+            <td>08/13/2020</td>
+            <td>BOE 1500 Parking</td>
+            </tr>
+        
+            <tr class='accordion'>
+            <td>Butler Cloth Key-chain with 2 keys</td>
+            <td>20-038</td>
+            <td>08/28/2020</td>
+            <td>BOE Parking</td>
+            </tr>
+        
+            <tr class='accordion'>
+            <td>Black Cell Phone - Broken Screen</td>
+            <td>20-035</td>
+            <td>08/05/2020</td>
+            <td>Haverhill and Towanda Intersection</td>
+            </tr>
+        
+            <tr class='accordion'>
+            <td>RETURNED</td>
+            <td>A20-002</td>
+            <td>09/02/2020</td>
+            <td>Andover - 5000 Bldg</td>
+            </tr>
+        
+            <tr class='accordion'>
+            <td>Lexar Flash Drive</td>
+            <td>A20-001</td>
+            <td>08/24/2020</td>
+            <td>Andover - 5000 Bldg</td>
+            </tr>
+        			</tbody>
+		</table>
+		<br />
+		
+<div>Page  <a href='?page=1'>1</a> </div><br />
+		<a href="http://www.butlercc.edu/campus-safety">&lt; Back to Campus Safety</a>
+		</div></div>
+<!-- googleoff: index -->
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/site/javascript/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+        <script src="js/placeholder.js"></script>
+        <!--[if lte IE 9]>
+        <script src="./js/lte-ie9.js"></script>
+        <![endif]-->
+        <!--[if lte IE 8]>
+        <script src="./js/lte-ie8.js"></script>
+        <![endif]-->
+        <!--[if lt IE 8]>
+        <script src="./js/lt-ie8.js"></script>
+        <![endif]-->
+<!-- googleon: index -->
+        <script src="js/almond.min.js"></script>
+        <script src="js/util.min.js"></script>
+        <script src="js/site.js"></script>
+
+	<script type="text/javascript" src="js/sorttable.js"></script>
+	<script type="text/javascript" src="js/jquery.quicksearch.js"></script>
+	<script type="text/javascript">
+	    $('input#search').quicksearch('table tbody tr');
+	</script>
+    <!-- Google Analytics --><script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-56237527-3', 'auto');  ga('send', 'pageview');</script><!-- Track outbound links --><script>function _gaLt(event){    var el = event.srcElement || event.target;    /* Loop up the DOM tree through parent elements if clicked element is not a link (eg: an image inside a link) */    while(el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase() != 'a' || !el.href)){        el = el.parentNode;    }    if(el && el.href){        /* link */        var link = el.href;        if(link.indexOf(location.host) == -1 && !link.match(/^javascript\:/i)){ /* external link */            /* HitCallback function to either open link in either same or new window */            var hitBack = function(link, target){                target ? window.open(link, target) : window.location.href = link;            };            /* Is target set and not _(self|parent|top)? */            var target = (el.target && !el.target.match(/^_(self|parent|top)$/i)) ? el.target : false;            /* send event with callback */            ga(                "send", "event", "Outgoing Links", link,                document.location.pathname + document.location.search,                {"hitCallback": hitBack(link, target)}            );            /* Prevent standard click */            event.preventDefault ? event.preventDefault() : event.returnValue = !1;        }    }}/* Attach the event to all clicks in the document after page has loaded */var w = window;w.addEventListener ? w.addEventListener("load",function(){document.body.addEventListener("click",_gaLt,!1)},!1) : w.attachEvent && w.attachEvent("onload",function(){document.body.attachEvent("onclick",_gaLt)});</script>
+	</body>
+</html>
